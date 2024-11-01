@@ -1,0 +1,31 @@
+#tefw_additional_fields .optional, #tefw_exempt_field .optional {
+    display: none;
+}
+.tax-exemption-settings-sidebar {
+    width: 20%; float: right; margin: 20px;
+}
+.tax-exemption-settings-sidebar-box {
+    padding: 10px 20px; background-color: #fff; border: 1px solid #ddd;
+}
+.tefw_fields {
+    margin-top: 4px;
+}
+.tefw_fields_hidden {
+    display: none !important;
+}
+.tefw-account-form input[type="text"],
+.tefw-account-form input[type="date"],
+.tefw-account-form input[type="number"],
+.tefw-account-form textarea,
+.tefw-account-form select {
+    width: 100% !important;
+}
+.tefw-account-form input[type="checkbox"] {
+	margin: 0 5px;
+}
+#tefw_additional_fields .optional {
+    display: none !important;
+}
+.tefw_fields_content {
+    margin-top: -10px;
+}

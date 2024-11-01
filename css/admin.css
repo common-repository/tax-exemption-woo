@@ -1,0 +1,214 @@
+.tax-exemption-settings .nav-tab-wrapper {
+    padding-top: 15px;
+    border-bottom: none;
+}
+.tax-exemption-settings .nav-tab {
+    margin-right: 10px;
+}
+.tax-exemption-settings .nav-tab.nav-tab-active {
+    background-color: #f5f5f5;
+    border-color: #ccc #ccc #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+.tax-exemption-settings .tab-panel {
+    display: none;
+    padding-top: 10px;
+}
+.tax-exemption-settings .tab-panel.active {
+    display: block;
+}
+
+.tax-exemption-settings .form-table td {
+    padding: 20px;
+}
+.tax-exemption-settings #custom-fields .form-table td {
+    padding: 0px 10px 0px 0px;
+}
+.tax-exemption-settings .tax-exemption-custom-fields-table-labels {
+    font-weight: bold;
+}
+
+.tax-exemption-settings {
+    padding: 12px;
+    width: calc(100% - 480px);
+    float: left;
+}
+
+.tax-exemption-settings #submit {
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+@media (max-width: 1182px) {
+    .tax-exemption-settings {
+        width: calc(100% - 10px); float: none;
+    }
+}
+.tax-exemption-settings-sidebar {
+    width: 380px; float: right; margin: 20px;
+}
+@media (max-width: 1182px) {
+    .tax-exemption-settings-sidebar {
+        width: calc(100% - 10px); float: none; margin: 0;
+    }
+}
+.tax-exemption-settings-sidebar-box {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #e0e0e0;
+}
+@media (max-width: 782px) {
+    .tax-exemption-settings-sidebar-box {
+        padding: 10px; background-color: #fff; border: 1px solid #ddd;
+    }
+}
+
+.tax-exemption-certificate-enabled td, .tax-exemption-approval-enabled td, .tax-exemption-approval-message td {
+    padding-left: 40px;
+}
+
+.tax-exemption-settings i {
+    color: #738e99;
+}
+
+.tax-exemption-settings input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.25);
+}
+
+span.tefw-pro-badge {
+    background: green;
+    color: #fff;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: -9px;
+    border-radius: 20px;
+    font-size: 8px;
+    padding: 1px 5px;
+}
+
+/* Users Table */
+
+#tefw_exempt_users_table {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling if table exceeds container width */
+}
+
+#tefw_exempt_users_table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+#tefw_exempt_users_table th {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 20px 5px;
+    text-align: left;
+}
+#tefw_exempt_users_table tr {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+#tefw_exempt_users_table tr:hover {
+    background-color: #f5f5f5;
+}
+#tefw_exempt_users_table td {
+    padding: 20px 10px;
+    text-align: left;
+    width: 100px;
+}
+#tefw_exempt_users_table th.tefw-col-actions, #tefw_exempt_users_table td.tefw-col-actions {
+    text-align: right !important;
+}
+
+#tefw-pagination {
+    margin-top: 15px;
+}
+.tefw-page-btn {
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+.tefw-page-btn:hover {
+    background-color: #ddd;
+}
+
+/* Add New Exempt Form */
+.new-exempt-form-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    max-width: 550px;
+}
+
+.new-exempt-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tefw-form-field {
+    margin-bottom: 16px;
+}
+.tefw-form-field.submit-field {
+    margin-bottom: 0;
+}
+.tefw-form-field label {
+    display: inline-block;
+    font-weight: bold;
+}
+.tefw-form-field .woocommerce-form-row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tefw-submit-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tefw-submit-button:hover {
+    background-color: #0056b3;
+}
+
+.tefw-form-field input[type="text"], .tax-exemption-settings input[type="text"], .tax-exemption-settings input[type="number"], .tax-exemption-settings input[type="email"], .tax-exemption-settings input[type="password"], .tax-exemption-settings select, .tax-exemption-settings textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#tefw_search_field {
+    width: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+a.button.tefw-edit-user {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+    padding: 7px 10px;
+}
+
+.tefw-highlight {
+    background-color: rgb(214, 249, 214) !important;
+    animation: fade 1s;
+}

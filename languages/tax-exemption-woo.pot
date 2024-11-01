@@ -1,0 +1,1033 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tax Exemption for WooCommerce (PRO)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-03 15:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.4\n"
+"X-Domain: tax-exemption-woo"
+
+#: inc/admin-options.php:604
+msgid ""
+"\"Approved\" users have access to tax exemption. \"Declined\" users will "
+"have tax exemption features completely disabled. \"Pending\" users are "
+"awaiting approval."
+msgstr ""
+
+#: inc/admin-options.php:943 inc/functions.php:91
+msgid "(Default)"
+msgstr ""
+
+#: inc/admin-options.php:837
+msgid ""
+"- Display a new \"Exemption Type\" select field on the \"My Account\" page, "
+"for the customer to choose from, which will show all the tax exemption "
+"reasons available in AvaTax. When using AvaTax this field is required in "
+"order for tax to be removed properly."
+msgstr ""
+
+#: inc/admin-options.php:846
+msgid ""
+"- In order to claim tax exemption, the customer will first need to go to the "
+"\"My Account\" page to set their exemption details and type."
+msgstr ""
+
+#: inc/admin-options.php:849
+msgid ""
+"- On checkout, it will show the \"Exemption Message\" with a link to the "
+"\"My Account\" page if they wish to claim exemption."
+msgstr ""
+
+#: inc/admin-options.php:840
+msgid ""
+"- The following options are required, and will be enabled automatically (if "
+"not already): \"Remove Tax on Shipping\", \"Settings on My Account Page\", "
+"and \"Hide Fields On Checkout\"."
+msgstr ""
+
+#: inc/admin-options.php:843
+msgid ""
+"- This is compatible with the \"Require Manual Approval\" option. The "
+"exemption type will only be set for the customer in AvaTax once they are "
+"approved."
+msgstr ""
+
+#: inc/admin-options.php:852
+msgid ""
+"- You can also view/edit each customers AvaTax exemption type on the "
+"\"Exempt Customers\" management page."
+msgstr ""
+
+#: inc/functions-account.php:398
+msgid "<br>Please review and update the status in the user profile.<br><br>"
+msgstr ""
+
+#: inc/admin-options.php:1052
+msgid "Access all features for only"
+msgstr ""
+
+#: inc/functions-account.php:425 inc/functions-account.php:430
+msgid "Access denied"
+msgstr ""
+
+#: inc/admin-options.php:901
+msgid "Add New"
+msgstr ""
+
+#: inc/admin-options.php:908
+msgid "Add New / Update Customer"
+msgstr ""
+
+#: inc/admin-options.php:468
+msgid "Additional Fields"
+msgstr ""
+
+#: inc/admin-options.php:237
+msgid "Admin: Except Customer Details"
+msgstr ""
+
+#: inc/admin-options.php:31
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/admin-options.php:212
+msgid "After Billing"
+msgstr ""
+
+#: inc/admin-options.php:214
+msgid "After Order Notes"
+msgstr ""
+
+#: inc/admin-options.php:747
+msgid ""
+"An eligible product must be in cart to show tax exemption checkbox/form on "
+"checkout."
+msgstr ""
+
+#: inc/admin-options.php:972 inc/functions-account.php:143
+#: inc/functions-users.php:163 inc/functions.php:44
+msgid "Approved"
+msgstr ""
+
+#: inc/functions-account.php:288 inc/functions.php:138
+msgid "Are you sure you want to delete the file?"
+msgstr ""
+
+#: inc/admin-options.php:558
+msgid ""
+"Automatically delete temporary certificate PDF files that are not assigned "
+"to a user or order. Checked daily."
+msgstr ""
+
+#: inc/admin-options.php:41
+msgid "AvaTax"
+msgstr ""
+
+#: inc/admin-options.php:809
+msgid "AvaTax Integration"
+msgstr ""
+
+#: inc/admin-options.php:883
+msgid "AvaTax integration is available in the PRO version."
+msgstr ""
+
+#: inc/admin-options.php:213
+msgid "Before Billing"
+msgstr ""
+
+#: inc/admin-options.php:215
+msgid "Before Order Notes"
+msgstr ""
+
+#: inc/admin-options.php:961 inc/functions-users.php:73 inc/functions.php:379
+msgid "Certificate"
+msgstr ""
+
+#: inc/admin-options.php:1036
+msgid "Certificate upload field."
+msgstr ""
+
+#: inc/admin-options.php:518
+msgid "Certificate upload is required."
+msgstr ""
+
+#: inc/admin-options.php:507
+msgid ""
+"Certificate will be uploaded to the wp-content/uploads/tax-exemption folder. "
+"PDFs only. Max 250KB."
+msgstr ""
+
+#: inc/admin-options.php:1091
+msgid "Check out some of our other plugins:"
+msgstr ""
+
+#: premium-files/per-product.php:17
+msgid ""
+"Check this box if the product can be tax exempted for eligible customers."
+msgstr ""
+
+#: inc/admin-options.php:420
+msgid "Checkbox"
+msgstr ""
+
+#: inc/admin-options.php:300
+msgid "Checkbox Description"
+msgstr ""
+
+#: inc/admin-options.php:293
+msgid "Checkbox Label"
+msgstr ""
+
+#: inc/functions-account.php:399
+#, php-format
+msgid ""
+"Click <a href=\"%s\">here</a> to edit and manage their tax exemption status."
+msgstr ""
+
+#: inc/functions-checkout.php:286 inc/functions-checkout.php:421
+msgid "Click here"
+msgstr ""
+
+#: inc/admin-options.php:366
+msgid "Click here."
+msgstr ""
+
+#: inc/functions-account.php:259
+msgid "Current:"
+msgstr ""
+
+#: inc/admin-options.php:38
+msgid "Custom Fields"
+msgstr ""
+
+#: inc/admin-options.php:1035
+msgid "Custom tax exemption form fields."
+msgstr ""
+
+#: inc/admin-options.php:36
+msgid "Custom Text"
+msgstr ""
+
+#: inc/admin-options.php:1046
+msgid "Customize the tax class for each user."
+msgstr ""
+
+#: inc/admin-options.php:426
+msgid "Date"
+msgstr ""
+
+#: inc/admin-options.php:977 inc/functions-account.php:148
+#: inc/functions-users.php:167 inc/functions.php:45
+msgid "Declined"
+msgstr ""
+
+#: inc/functions-account.php:261 inc/functions.php:127
+msgid "Delete"
+msgstr ""
+
+#: inc/admin-options.php:1022
+msgid "Developed by"
+msgstr ""
+
+#: inc/functions-users.php:211
+msgid "Edit Customer"
+msgstr ""
+
+#: inc/admin-options.php:264
+msgid "Edit Order Page"
+msgstr ""
+
+#: inc/admin-options.php:109
+msgid "Edit Tax Classes"
+msgstr ""
+
+#. Author of the plugin
+msgid "Elliot Sowersby, RelyWP"
+msgstr ""
+
+#: inc/functions-users.php:49
+msgid "Email"
+msgstr ""
+
+#: inc/admin-options.php:859 inc/admin-options.php:875
+msgid "Enable AvaTax Integration"
+msgstr ""
+
+#: inc/admin-options.php:528
+msgid "Enable certificate upload on \"checkout\" fields."
+msgstr ""
+
+#: inc/admin-options.php:538
+msgid "Enable certificate upload on \"My Account\" page fields."
+msgstr ""
+
+#: inc/admin-options.php:548
+msgid "Enable certificate upload on \"Registration Form\" fields."
+msgstr ""
+
+#: inc/admin-options.php:473
+msgid "Enable Custom Fields"
+msgstr ""
+
+#: inc/admin-options.php:500
+msgid "Enable Exemption Certificates"
+msgstr ""
+
+#: inc/admin-options.php:486
+msgid "Enable Expiration Date"
+msgstr ""
+
+#: inc/admin-options.php:76 inc/admin-options.php:914
+msgid "Enable Tax Exemption"
+msgstr ""
+
+#: inc/functions-users.php:47
+msgid "Enabled"
+msgstr ""
+
+#: inc/functions.php:78
+msgid "Enter the expiration date of the exemption."
+msgstr ""
+
+#: inc/functions.php:57
+msgid "Enter the name of the person for which exemption applies."
+msgstr ""
+
+#: inc/functions.php:65
+msgid "Enter the reason for exemption."
+msgstr ""
+
+#: premium-files/upload-checkout.php:85
+msgid "Error uploading file. Please try again."
+msgstr ""
+
+#: inc/functions.php:415
+msgid "Exempt"
+msgstr ""
+
+#: inc/admin-options.php:47 inc/admin-options.php:899
+msgid "Exempt Customers"
+msgstr ""
+
+#: inc/functions-checkout.php:709
+msgid "Exempt Expiration"
+msgstr ""
+
+#: inc/functions-checkout.php:622 inc/functions-checkout.php:707
+#: inc/functions-users.php:50
+msgid "Exempt Name"
+msgstr ""
+
+#: inc/functions-checkout.php:623 inc/functions-checkout.php:708
+#: inc/functions-users.php:51
+msgid "Exempt Reason"
+msgstr ""
+
+#: inc/functions-checkout.php:660 inc/functions-checkout.php:728
+msgid "Exemption Certificate"
+msgstr ""
+
+#: inc/admin-options.php:361
+msgid "Exemption Message"
+msgstr ""
+
+#: inc/functions.php:363
+msgid "Exemption Name"
+msgstr ""
+
+#: inc/functions.php:367
+msgid "Exemption Reason"
+msgstr ""
+
+#: inc/admin-options.php:87
+msgid "Exemption Settings"
+msgstr ""
+
+#: inc/functions-account.php:131
+msgid "Exemption Status"
+msgstr ""
+
+#: inc/admin-options.php:601
+msgid "Exemption Status & Approvals"
+msgstr ""
+
+#: inc/admin-options.php:1039
+msgid "Exemption status management."
+msgstr ""
+
+#: inc/admin-options.php:337 inc/admin-options.php:340 inc/functions.php:358
+#: premium-files/functions-avatax.php:23
+msgid "Exemption Type"
+msgstr ""
+
+#: inc/functions-users.php:55
+msgid "Expiration"
+msgstr ""
+
+#: inc/admin-options.php:328 inc/admin-options.php:933
+#: inc/functions-account.php:227 inc/functions-checkout.php:231
+#: inc/functions.php:75 premium-files/registration.php:55
+msgid "Expiration Date"
+msgstr ""
+
+#: inc/admin-options.php:325
+msgid "Expiration Date Field"
+msgstr ""
+
+#: inc/admin-options.php:1037
+msgid "Expiration date field."
+msgstr ""
+
+#: inc/admin-options.php:980 inc/functions-account.php:153
+#: inc/functions-users.php:169 inc/functions.php:46
+msgid "Expired"
+msgstr ""
+
+#: inc/admin-options.php:393
+msgid "Field Label"
+msgstr ""
+
+#: inc/admin-options.php:394
+msgid "Field Type"
+msgstr ""
+
+#: inc/admin-options.php:572
+msgid "Fields on Registration Form"
+msgstr ""
+
+#: inc/functions-account.php:452 inc/functions-account.php:458
+msgid "File deleted successfully."
+msgstr ""
+
+#: inc/functions-account.php:455
+msgid "File not found for user."
+msgstr ""
+
+#: premium-files/upload-checkout.php:77
+msgid ""
+"File size exceeds the maximum limit (500KB). Please upload a smaller file."
+msgstr ""
+
+#: inc/admin-options.php:30
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin-options.php:1078
+msgid "Get Support"
+msgstr ""
+
+#: inc/admin-options.php:585
+msgid "Hide Fields On Checkout"
+msgstr ""
+
+#: inc/admin-options.php:770
+msgid "Hide tax exemption for selected countries"
+msgstr ""
+
+#: inc/admin-options.php:1041
+msgid "Hide the tax exemption fields on checkout."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.relywp.com"
+msgstr ""
+
+#: inc/admin-options.php:296 inc/functions-account.php:208
+#: inc/functions-checkout.php:215 premium-files/registration.php:23
+msgid "I want to claim tax exemption"
+msgstr ""
+
+#: inc/admin-options.php:392
+msgid "ID"
+msgstr ""
+
+#: inc/admin-options.php:580
+msgid ""
+"If enabled, a section will be added to the WooCommerce user registration "
+"form for the user to fill out their tax exemption fields."
+msgstr ""
+
+#: inc/admin-options.php:230
+msgid ""
+"If enabled, a tab/section will be added to the \"My Account\" page for the "
+"user to edit their tax exemption details."
+msgstr ""
+
+#: inc/admin-options.php:630
+msgid ""
+"If enabled, customers need to be approved manually to enable exemption. "
+"After submitting the form on the \"My Account\" page, an email is sent to "
+"admin for approval, and their status set to \"Pending\"."
+msgstr ""
+
+#: inc/admin-options.php:506
+msgid ""
+"If enabled, it will add a \"Tax Exemption Certificate\" upload section/field "
+"to the tax exemption form."
+msgstr ""
+
+#: inc/admin-options.php:494
+msgid ""
+"If enabled, it will add an \"Expiration Date\" field to the tax exemption "
+"form."
+msgstr ""
+
+#: inc/admin-options.php:684
+msgid "If enabled, tax exemption will only be available to logged in users."
+msgstr ""
+
+#: inc/admin-options.php:697
+msgid ""
+"If enabled, tax exemption will only be available to selected user roles."
+msgstr ""
+
+#: inc/admin-options.php:617
+msgid ""
+"If enabled, the user will be able to view their exemption status on the \"my "
+"account\" page."
+msgstr ""
+
+#: inc/admin-options.php:593
+msgid ""
+"If enabled, they will only see the the \"I want to claim tax exemption\" "
+"checkbox on checkout. The tax exemption fields will be hidden and they will "
+"first need to edit their details on the \"My Account\" page."
+msgstr ""
+
+#: inc/admin-options.php:481
+msgid ""
+"If enabled, you can add your own custom fields to the tax exemption form."
+msgstr ""
+
+#: inc/admin-options.php:760
+msgid ""
+"If enabled, you can limit tax exemption fields to only be available to "
+"certain countries (billing address on checkout)."
+msgstr ""
+
+#: inc/admin-options.php:663
+msgid ""
+"If enabled, you can set a custom \"Tax Class for Tax Exemption\" for "
+"specific customers. This will override the global tax class set in the "
+"general settings."
+msgstr ""
+
+#: inc/admin-options.php:737
+msgid ""
+"If enabled, you will need to edit each product individually and enable \"Tax "
+"Exempt Product\" to disable VAT for that product."
+msgstr ""
+
+#: inc/admin-options.php:834
+msgid ""
+"If the AvaTax integration is enabled it will modify the plugin to work "
+"slightly differently in some areas, and will do the following:"
+msgstr ""
+
+#: inc/admin-options.php:495
+msgid ""
+"If their exemption expires, it will be disabled on their account and if "
+"\"approved users only\" is enabled, they will require re-approval."
+msgstr ""
+
+#: inc/functions.php:18
+msgid "Information"
+msgstr ""
+
+#: inc/admin-options.php:1047
+msgid "Integration with \"AvaTax\"."
+msgstr ""
+
+#: premium-files/upload-checkout.php:67 premium-files/upload-checkout.php:72
+msgid "Invalid file type. Please upload a PDF file."
+msgstr ""
+
+#: inc/functions-users.php:47
+msgid "Is tax exemption currently enabled for this customer?"
+msgstr ""
+
+#: inc/admin-options.php:408
+msgid "Label"
+msgstr ""
+
+#: inc/admin-options.php:1049
+msgid "Learn more about PRO"
+msgstr ""
+
+#: inc/admin-options.php:208
+msgid "Location on Checkout"
+msgstr ""
+
+#: inc/admin-options.php:676
+msgid "Logged in users only"
+msgstr ""
+
+#: inc/admin-options.php:1082
+msgid "Manage Account & Subscription"
+msgstr ""
+
+#: inc/admin-options.php:923
+msgid "Name"
+msgstr ""
+
+#: inc/admin-options.php:307
+msgid "Name Field"
+msgstr ""
+
+#: inc/admin-options.php:310 inc/functions-account.php:212 inc/functions.php:54
+msgid "Name of person to which Tax Exemption applies"
+msgstr ""
+
+#: inc/functions-checkout.php:219 premium-files/registration.php:40
+msgid "Name of person to which Tax exemption applies"
+msgstr ""
+
+#: inc/admin-options.php:1072
+msgid "Need help? Have a suggestion?"
+msgstr ""
+
+#: inc/admin-options.php:245
+msgid "New Order Email"
+msgstr ""
+
+#: inc/functions.php:395
+msgid "No"
+msgstr ""
+
+#: premium-files/functions-avatax.php:30
+msgid "No exemption"
+msgstr ""
+
+#: inc/functions.php:129
+msgid "No file uploaded."
+msgstr ""
+
+#: inc/functions-account.php:158
+msgid "None"
+msgstr ""
+
+#: inc/admin-options.php:424
+msgid "Number"
+msgstr ""
+
+#: inc/admin-options.php:1040
+msgid "Only allow exemption for approved users."
+msgstr ""
+
+#: inc/admin-options.php:1043
+msgid "Only allow exemption for logged in users."
+msgstr ""
+
+#: inc/admin-options.php:1045
+msgid "Only allow exemption for selected countries."
+msgstr ""
+
+#: inc/admin-options.php:1044
+msgid "Only allow exemption for selected user roles."
+msgstr ""
+
+#: premium-files/upload.php:99
+msgid "Only PDF files are allowed."
+msgstr ""
+
+#: inc/admin-options.php:1042
+msgid "Only remove tax from specific products."
+msgstr ""
+
+#: inc/admin-options.php:395 inc/admin-options.php:433
+msgid "Options"
+msgstr ""
+
+#: inc/admin-options.php:254
+msgid "Orders List Column"
+msgstr ""
+
+#: inc/admin-options.php:724
+msgid "Other Limitations"
+msgstr ""
+
+#: inc/admin-options.php:975 inc/functions-users.php:165
+#: inc/functions-users.php:186 inc/functions.php:43
+msgid "Pending"
+msgstr ""
+
+#: inc/functions-account.php:163
+msgid "Pending Approval"
+msgstr ""
+
+#: inc/functions-checkout.php:477 premium-files/registration.php:136
+#, php-format
+msgid "Please enter %s."
+msgstr ""
+
+#: premium-files/registration.php:118
+msgid "Please enter a name for Tax exemption."
+msgstr ""
+
+#: premium-files/registration.php:121
+msgid "Please enter a reason for Tax exemption."
+msgstr ""
+
+#: inc/functions-checkout.php:463
+msgid "Please enter expiration date for Tax exemption."
+msgstr ""
+
+#: inc/functions-checkout.php:448
+msgid "Please enter name for Tax exemption."
+msgstr ""
+
+#: inc/functions-checkout.php:454
+msgid "Please enter reason for Tax exemption."
+msgstr ""
+
+#: premium-files/upload-checkout.php:140
+#, php-format
+msgid ""
+"Please upload your Exemption Certificate on the <a href=\"%s\">My Account</a>"
+" page."
+msgstr ""
+
+#: premium-files/upload-checkout.php:59 premium-files/upload.php:91
+msgid "Please wait a moment before uploading another file."
+msgstr ""
+
+#: inc/admin-options.php:422
+msgid "Radio"
+msgstr ""
+
+#: inc/admin-options.php:927
+msgid "Reason"
+msgstr ""
+
+#: inc/admin-options.php:314
+msgid "Reason Field"
+msgstr ""
+
+#: inc/admin-options.php:317 inc/functions-account.php:218 inc/functions.php:62
+msgid "Reason for Tax Exemption"
+msgstr ""
+
+#: inc/functions-checkout.php:225 premium-files/registration.php:47
+msgid "Reason for Tax exemption"
+msgstr ""
+
+#: inc/admin-options.php:113
+msgid "Remove Tax on Shipping"
+msgstr ""
+
+#: inc/admin-options.php:622
+msgid "Require Manual Approval"
+msgstr ""
+
+#: inc/admin-options.php:439
+msgid "Required"
+msgstr ""
+
+#: inc/admin-options.php:149 inc/admin-options.php:186
+msgid "Required?"
+msgstr ""
+
+#: inc/admin-options.php:1059
+msgid "Risk free! 7 day trial & 14 day money-back guarantee."
+msgstr ""
+
+#: inc/admin-options.php:418 premium-files/registration.php:95
+msgid "Select"
+msgstr ""
+
+#: inc/admin-options.php:775
+msgid "Select the countries here"
+msgstr ""
+
+#: inc/admin-options.php:108
+msgid "Select the tax class that will be applied to the tax exempt orders."
+msgstr ""
+
+#: inc/admin-options.php:218
+msgid ""
+"Select where the tax exemption checkbox/form is shown on the checkout page."
+msgstr ""
+
+#: inc/admin-options.php:752
+msgid "Selected countries only"
+msgstr ""
+
+#: inc/admin-options.php:689
+msgid "Selected user roles only"
+msgstr ""
+
+#: inc/admin-options.php:910
+msgid ""
+"Set or update an existing customer as tax exempt by filling out the form "
+"below."
+msgstr ""
+
+#: inc/admin-options.php:222
+msgid "Settings on My Account Page"
+msgstr ""
+
+#: inc/admin-options.php:135
+msgid "Show \"Name\" Field"
+msgstr ""
+
+#: inc/admin-options.php:172
+msgid "Show \"Reason\" Field"
+msgstr ""
+
+#: inc/admin-options.php:609
+msgid "Show Exemption Status"
+msgstr ""
+
+#: inc/admin-options.php:1038
+msgid "Show fields on registration form."
+msgstr ""
+
+#: inc/admin-options.php:771
+msgid "Show tax exemption for selected countries only"
+msgstr ""
+
+#: inc/admin-options.php:641
+msgid ""
+"Show tax exemption message on checkout with link to account page for non-"
+"approved users."
+msgstr ""
+
+#: inc/admin-options.php:729
+msgid "Specific products only"
+msgstr ""
+
+#: inc/admin-options.php:101
+msgid "Standard"
+msgstr ""
+
+#: inc/admin-options.php:969 inc/functions-users.php:75
+msgid "Status"
+msgstr ""
+
+#: inc/admin-options.php:1070
+msgid "Support"
+msgstr ""
+
+#: inc/admin-options.php:941 inc/functions-users.php:61 inc/functions.php:87
+msgid "Tax Class"
+msgstr ""
+
+#: inc/admin-options.php:95
+msgid "Tax Class for Tax Exemption"
+msgstr ""
+
+#: inc/admin-options.php:655
+msgid "Tax Class Per Customer"
+msgstr ""
+
+#: inc/admin-options.php:649
+msgid "Tax Class: Advanced Settings"
+msgstr ""
+
+#: inc/functions.php:25 inc/functions.php:28 inc/functions.php:351
+#: inc/functions.php:354 inc/functions.php:442 inc/functions.php:444
+#: inc/functions.php:447
+msgid "Tax Exempt"
+msgstr ""
+
+#: premium-files/per-product.php:16
+msgid "Tax Exempt Product"
+msgstr ""
+
+#: inc/admin-options.php:282 inc/functions-account.php:57
+#: inc/functions-account.php:84 inc/functions-account.php:112
+#: inc/functions.php:18
+msgid "Tax Exemption"
+msgstr ""
+
+#: inc/admin-options.php:349 inc/admin-options.php:352
+#: inc/functions-account.php:241 inc/functions.php:110
+#: premium-files/registration.php:66 premium-files/upload-checkout.php:14
+msgid "Tax Exemption Certificate"
+msgstr ""
+
+#: inc/admin-options.php:286
+msgid "Tax Exemption Description"
+msgstr ""
+
+#: inc/functions-checkout.php:627 inc/functions-checkout.php:711
+msgid "Tax Exemption Details"
+msgstr ""
+
+#. Name of the plugin
+msgid "Tax Exemption for WooCommerce (PRO)"
+msgstr ""
+
+#: inc/admin-options.php:125
+msgid "Tax Exemption Form"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Tax Exemption plugin for WooCommerce. Allow customers to declare tax "
+"exemption eligibility, and provide tax exemption details."
+msgstr ""
+
+#: inc/functions-account.php:393
+msgid "Tax Exemption Request"
+msgstr ""
+
+#: inc/functions.php:38
+msgid "Tax Exemption Status"
+msgstr ""
+
+#: inc/admin-options.php:279
+msgid "Tax Exemption Title"
+msgstr ""
+
+#: inc/admin-options.php:414
+msgid "Text"
+msgstr ""
+
+#: inc/admin-options.php:416
+msgid "Textarea"
+msgstr ""
+
+#: premium-files/upload.php:95
+msgid "The file size exceeds the limit of 500KB."
+msgstr ""
+
+#: inc/admin-options.php:90
+msgid ""
+"The following settings allow you to customise how tax exemption is applied "
+"to orders."
+msgstr ""
+
+#: inc/admin-options.php:128
+msgid ""
+"The following settings allow you to customise where customers can customise "
+"their tax exemption details and status."
+msgstr ""
+
+#: inc/admin-options.php:240
+msgid ""
+"The following settings allow you to customise where tax exemption details "
+"will be displayed to admins for orders."
+msgstr ""
+
+#: inc/functions-account.php:396
+#, php-format
+msgid "The user %s has requested tax exemption.<br><br>"
+msgstr ""
+
+#: inc/admin-options.php:25
+msgid "This plugin requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: inc/admin-options.php:369
+msgid ""
+"This text will be shown in cases where they need to be directed to the "
+"account page to verify or update their exemption details."
+msgstr ""
+
+#: inc/admin-options.php:885
+msgid "Try it free for 7 days."
+msgstr ""
+
+#: inc/admin-options.php:1056
+msgid "Try PRO free for 7 days"
+msgstr ""
+
+#: inc/functions-users.php:79
+msgid "Type"
+msgstr ""
+
+#: inc/functions-account.php:277
+msgid "Update"
+msgstr ""
+
+#: inc/admin-options.php:456
+msgid "Upgrade to PRO to access these features and settings."
+msgstr ""
+
+#: inc/admin-options.php:671
+msgid "User Limitations"
+msgstr ""
+
+#: inc/admin-options.php:919 inc/functions-users.php:48
+msgid "Username"
+msgstr ""
+
+#: inc/functions-checkout.php:662 inc/functions-checkout.php:728
+msgid "View"
+msgstr ""
+
+#: inc/functions-users.php:152
+msgid "View Certificate"
+msgstr ""
+
+#: inc/admin-options.php:1071
+msgid "View Plugin Documentation"
+msgstr ""
+
+#: inc/admin-options.php:567
+msgid "Visibility Options"
+msgstr ""
+
+#: inc/admin-options.php:1033
+msgid "Want more features? Upgrade to PRO!"
+msgstr ""
+
+#: inc/admin-options.php:364 inc/functions-checkout.php:285
+#: inc/functions-checkout.php:420
+msgid "Want to claim tax exemption?"
+msgstr ""
+
+#: inc/admin-options.php:142
+msgid "When enabled, a \"Name\" field will be shown on the tax exemption form."
+msgstr ""
+
+#: inc/admin-options.php:179
+msgid ""
+"When enabled, a \"Reason\" field will be shown on the tax exemption form."
+msgstr ""
+
+#: inc/admin-options.php:259
+msgid ""
+"When enabled, a column will be added to the admin orders list page to "
+"indicate if the order is tax exempt."
+msgstr ""
+
+#: inc/admin-options.php:269
+msgid ""
+"When enabled, a meta box will be added to the admin \"Edit Order\" page "
+"toview the customers tax exemption details."
+msgstr ""
+
+#: inc/admin-options.php:118
+msgid "When enabled, tax will also be removed from the shipping costs."
+msgstr ""
+
+#: inc/admin-options.php:250
+msgid ""
+"When enabled, the customers tax exemption information will be included in "
+"the admin \"New Order\" emails."
+msgstr ""
+
+#: inc/functions.php:395
+msgid "Yes"
+msgstr ""
+
+#: inc/admin-options.php:603
+msgid ""
+"You can manage and edit the status of customers tax exemption in the "
+"\"Exempt Customers\" tab."
+msgstr ""
+
+#: inc/functions-checkout.php:261 inc/functions-checkout.php:465
+msgid "Your tax exemption has expired."
+msgstr ""

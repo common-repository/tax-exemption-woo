@@ -1,0 +1,1367 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tax Exemption for WooCommerce (PRO)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-03 15:02+0000\n"
+"PO-Revision-Date: 2024-07-03 15:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.4\n"
+"X-Domain: tax-exemption-woo"
+
+#: inc/admin-options.php:604
+#, fuzzy
+msgid ""
+"\"Approved\" users have access to tax exemption. \"Declined\" users will "
+"have tax exemption features completely disabled. \"Pending\" users are "
+"awaiting approval."
+msgstr ""
+"Los usuarios \"aprobados\" tienen acceso a la exención de impuestos. Los "
+"usuarios \"rechazados\" tendrán las funciones de exención de impuestos "
+"completamente deshabilitadas. Los usuarios \"pendientes\" están a la espera "
+"de aprobación."
+
+#: inc/admin-options.php:943 inc/functions.php:91
+#, fuzzy
+msgid "(Default)"
+msgstr "(Predeterminado)"
+
+#: inc/admin-options.php:837
+#, fuzzy
+msgid ""
+"- Display a new \"Exemption Type\" select field on the \"My Account\" page, "
+"for the customer to choose from, which will show all the tax exemption "
+"reasons available in AvaTax. When using AvaTax this field is required in "
+"order for tax to be removed properly."
+msgstr ""
+"- Mostrar un nuevo campo de selección de \"Tipo de exención\" en la página "
+"\"Mi cuenta\", para que el cliente elija, que mostrará todos los motivos de "
+"exención de impuestos disponibles en AvaTax. Al usar AvaTax, este campo es "
+"obligatorio para que el impuesto se elimine correctamente."
+
+#: inc/admin-options.php:846
+#, fuzzy
+msgid ""
+"- In order to claim tax exemption, the customer will first need to go to the "
+"\"My Account\" page to set their exemption details and type."
+msgstr ""
+"- Para solicitar la exención de impuestos, el cliente primero deberá ir a la "
+"página \"Mi cuenta\" para establecer los detalles y el tipo de exención."
+
+#: inc/admin-options.php:849
+#, fuzzy
+msgid ""
+"- On checkout, it will show the \"Exemption Message\" with a link to the "
+"\"My Account\" page if they wish to claim exemption."
+msgstr ""
+"- Al finalizar la compra, se mostrará el \"Mensaje de exención\" con un "
+"enlace a la página \"Mi cuenta\" si desean reclamar la exención."
+
+#: inc/admin-options.php:840
+#, fuzzy
+msgid ""
+"- The following options are required, and will be enabled automatically (if "
+"not already): \"Remove Tax on Shipping\", \"Settings on My Account Page\", "
+"and \"Hide Fields On Checkout\"."
+msgstr ""
+"- Las siguientes opciones son obligatorias y se habilitarán automáticamente "
+"(si aún no lo han hecho): \"Eliminar impuestos sobre el envío\", "
+"\"Configuración en la página Mi cuenta\" y \"Ocultar campos al finalizar la "
+"compra\"."
+
+#: inc/admin-options.php:843
+#, fuzzy
+msgid ""
+"- This is compatible with the \"Require Manual Approval\" option. The "
+"exemption type will only be set for the customer in AvaTax once they are "
+"approved."
+msgstr ""
+"- Esto es compatible con la opción \"Requerir aprobación manual\". El tipo "
+"de exención solo se establecerá para el cliente en AvaTax una vez que se "
+"apruebe."
+
+#: inc/admin-options.php:852
+#, fuzzy
+msgid ""
+"- You can also view/edit each customers AvaTax exemption type on the "
+"\"Exempt Customers\" management page."
+msgstr ""
+"- También puede ver/editar el tipo de exención de AvaTax de cada cliente en "
+"la página de administración \"Clientes exentos\"."
+
+#: inc/functions-account.php:398
+#, fuzzy
+msgid "<br>Please review and update the status in the user profile.<br><br>"
+msgstr "<br>Revise y actualice el estado en el perfil de usuario. <br><br>"
+
+#: inc/admin-options.php:1052
+#, fuzzy
+msgid "Access all features for only"
+msgstr "Acceda a todas las funciones por solo"
+
+#: inc/functions-account.php:425 inc/functions-account.php:430
+#, fuzzy
+msgid "Access denied"
+msgstr "Acceso denegado"
+
+#: inc/admin-options.php:901
+#, fuzzy
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: inc/admin-options.php:908
+#, fuzzy
+msgid "Add New / Update Customer"
+msgstr "Agregar nuevo / Actualizar cliente"
+
+#: inc/admin-options.php:468
+#, fuzzy
+msgid "Additional Fields"
+msgstr "Campos adicionales"
+
+#: inc/admin-options.php:237
+#, fuzzy
+msgid "Admin: Except Customer Details"
+msgstr "Administrador: excepto los detalles del cliente"
+
+#: inc/admin-options.php:31
+#, fuzzy
+msgid "Advanced Settings"
+msgstr "Ajustes avanzados"
+
+#: inc/admin-options.php:212
+#, fuzzy
+msgid "After Billing"
+msgstr "Después de la facturación"
+
+#: inc/admin-options.php:214
+#, fuzzy
+msgid "After Order Notes"
+msgstr "Notas posteriores al pedido"
+
+#: inc/admin-options.php:747
+#, fuzzy
+msgid ""
+"An eligible product must be in cart to show tax exemption checkbox/form on "
+"checkout."
+msgstr ""
+"Un producto elegible debe estar en el carrito para mostrar la casilla de "
+"verificación/formulario de exención de impuestos al finalizar la compra."
+
+#: inc/admin-options.php:972 inc/functions-account.php:143
+#: inc/functions-users.php:163 inc/functions.php:44
+#, fuzzy
+msgid "Approved"
+msgstr "Aprobado"
+
+#: inc/functions-account.php:288 inc/functions.php:138
+#, fuzzy
+msgid "Are you sure you want to delete the file?"
+msgstr "¿Estás seguro de que quieres eliminar el archivo?"
+
+#: inc/admin-options.php:558
+#, fuzzy
+msgid ""
+"Automatically delete temporary certificate PDF files that are not assigned "
+"to a user or order. Checked daily."
+msgstr ""
+"Elimine automáticamente los archivos PDF de certificados temporales que no "
+"estén asignados a un usuario o pedido. Revisado diariamente."
+
+#: inc/admin-options.php:41
+#, fuzzy
+msgid "AvaTax"
+msgstr "AvaTax (en inglés)"
+
+#: inc/admin-options.php:809
+#, fuzzy
+msgid "AvaTax Integration"
+msgstr "Integración de AvaTax"
+
+#: inc/admin-options.php:883
+#, fuzzy
+msgid "AvaTax integration is available in the PRO version."
+msgstr "La integración de AvaTax está disponible en la versión PRO."
+
+#: inc/admin-options.php:213
+#, fuzzy
+msgid "Before Billing"
+msgstr "Antes de facturar"
+
+#: inc/admin-options.php:215
+#, fuzzy
+msgid "Before Order Notes"
+msgstr "Antes de las notas del pedido"
+
+#: inc/admin-options.php:961 inc/functions-users.php:73 inc/functions.php:379
+#, fuzzy
+msgid "Certificate"
+msgstr "Certificado"
+
+#: inc/admin-options.php:1036
+#, fuzzy
+msgid "Certificate upload field."
+msgstr "Campo de carga de certificados."
+
+#: inc/admin-options.php:518
+#, fuzzy
+msgid "Certificate upload is required."
+msgstr "Es necesario cargar el certificado."
+
+#: inc/admin-options.php:507
+#, fuzzy
+msgid ""
+"Certificate will be uploaded to the wp-content/uploads/tax-exemption folder. "
+"PDFs only. Max 250KB."
+msgstr ""
+"El certificado se cargará en la carpeta wp-content/uploads/tax-exemption. "
+"Solo PDF. Máximo 250 KB."
+
+#: inc/admin-options.php:1091
+#, fuzzy
+msgid "Check out some of our other plugins:"
+msgstr "Echa un vistazo a algunos de nuestros otros plugins:"
+
+#: premium-files/per-product.php:17
+#, fuzzy
+msgid ""
+"Check this box if the product can be tax exempted for eligible customers."
+msgstr ""
+"Marque esta casilla si el producto puede estar exento de impuestos para los "
+"clientes elegibles."
+
+#: inc/admin-options.php:420
+#, fuzzy
+msgid "Checkbox"
+msgstr "Casilla de verificación"
+
+#: inc/admin-options.php:300
+#, fuzzy
+msgid "Checkbox Description"
+msgstr "Descripción de la casilla de verificación"
+
+#: inc/admin-options.php:293
+#, fuzzy
+msgid "Checkbox Label"
+msgstr "Etiqueta de casilla de verificación"
+
+#: inc/functions-account.php:399
+#, fuzzy, php-format
+msgid ""
+"Click <a href=\"%s\">here</a> to edit and manage their tax exemption status."
+msgstr ""
+"Haga clic <a href=\"%s\">aquí</a> para editar y administrar su estado de "
+"exención de impuestos."
+
+#: inc/functions-checkout.php:286 inc/functions-checkout.php:421
+#, fuzzy
+msgid "Click here"
+msgstr "Haga clic aquí"
+
+#: inc/admin-options.php:366
+#, fuzzy
+msgid "Click here."
+msgstr "Haga clic aquí."
+
+#: inc/functions-account.php:259
+#, fuzzy
+msgid "Current:"
+msgstr "Actual:"
+
+#: inc/admin-options.php:38
+#, fuzzy
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: inc/admin-options.php:1035
+#, fuzzy
+msgid "Custom tax exemption form fields."
+msgstr "Campos de formulario de exención de impuestos personalizados."
+
+#: inc/admin-options.php:36
+#, fuzzy
+msgid "Custom Text"
+msgstr "Texto personalizado"
+
+#: inc/admin-options.php:1046
+#, fuzzy
+msgid "Customize the tax class for each user."
+msgstr "Personaliza la clase de impuestos para cada usuario."
+
+#: inc/admin-options.php:426
+#, fuzzy
+msgid "Date"
+msgstr "Fecha"
+
+#: inc/admin-options.php:977 inc/functions-account.php:148
+#: inc/functions-users.php:167 inc/functions.php:45
+#, fuzzy
+msgid "Declined"
+msgstr "Disminuido"
+
+#: inc/functions-account.php:261 inc/functions.php:127
+#, fuzzy
+msgid "Delete"
+msgstr "Borrar"
+
+#: inc/admin-options.php:1022
+#, fuzzy
+msgid "Developed by"
+msgstr "Desarrollado por"
+
+#: inc/functions-users.php:211
+#, fuzzy
+msgid "Edit Customer"
+msgstr "Editar cliente"
+
+#: inc/admin-options.php:264
+#, fuzzy
+msgid "Edit Order Page"
+msgstr "Editar página de pedido"
+
+#: inc/admin-options.php:109
+#, fuzzy
+msgid "Edit Tax Classes"
+msgstr "Editar clases de impuestos"
+
+#. Author of the plugin
+#, fuzzy
+msgid "Elliot Sowersby, RelyWP"
+msgstr "Elliot Sowersby, RelyWP"
+
+#: inc/functions-users.php:49
+#, fuzzy
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: inc/admin-options.php:859 inc/admin-options.php:875
+#, fuzzy
+msgid "Enable AvaTax Integration"
+msgstr "Habilite la integración de AvaTax"
+
+#: inc/admin-options.php:528
+#, fuzzy
+msgid "Enable certificate upload on \"checkout\" fields."
+msgstr "Habilite la carga de certificados en los campos de \"pago\"."
+
+#: inc/admin-options.php:538
+#, fuzzy
+msgid "Enable certificate upload on \"My Account\" page fields."
+msgstr ""
+"Habilite la carga de certificados en los campos de la página \"Mi cuenta\"."
+
+#: inc/admin-options.php:548
+#, fuzzy
+msgid "Enable certificate upload on \"Registration Form\" fields."
+msgstr ""
+"Habilite la carga de certificados en los campos \"Formulario de registro\"."
+
+#: inc/admin-options.php:473
+#, fuzzy
+msgid "Enable Custom Fields"
+msgstr "Habilitar campos personalizados"
+
+#: inc/admin-options.php:500
+#, fuzzy
+msgid "Enable Exemption Certificates"
+msgstr "Habilitar certificados de exención"
+
+#: inc/admin-options.php:486
+#, fuzzy
+msgid "Enable Expiration Date"
+msgstr "Habilitar fecha de vencimiento"
+
+#: inc/admin-options.php:76 inc/admin-options.php:914
+#, fuzzy
+msgid "Enable Tax Exemption"
+msgstr "Habilitar la exención de impuestos"
+
+#: inc/functions-users.php:47
+#, fuzzy
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: inc/functions.php:78
+#, fuzzy
+msgid "Enter the expiration date of the exemption."
+msgstr "Introduzca la fecha de vencimiento de la exención."
+
+#: inc/functions.php:57
+#, fuzzy
+msgid "Enter the name of the person for which exemption applies."
+msgstr "Ingrese el nombre de la persona a la que se aplica la exención."
+
+#: inc/functions.php:65
+#, fuzzy
+msgid "Enter the reason for exemption."
+msgstr "Introduzca el motivo de la exención."
+
+#: premium-files/upload-checkout.php:85
+#, fuzzy
+msgid "Error uploading file. Please try again."
+msgstr "Error al cargar el archivo. Por favor, inténtelo de nuevo."
+
+#: inc/functions.php:415
+#, fuzzy
+msgid "Exempt"
+msgstr "Exento"
+
+#: inc/admin-options.php:47 inc/admin-options.php:899
+#, fuzzy
+msgid "Exempt Customers"
+msgstr "Clientes exentos"
+
+#: inc/functions-checkout.php:709
+#, fuzzy
+msgid "Exempt Expiration"
+msgstr "Vencimiento exento"
+
+#: inc/functions-checkout.php:622 inc/functions-checkout.php:707
+#: inc/functions-users.php:50
+#, fuzzy
+msgid "Exempt Name"
+msgstr "Nombre exento"
+
+#: inc/functions-checkout.php:623 inc/functions-checkout.php:708
+#: inc/functions-users.php:51
+#, fuzzy
+msgid "Exempt Reason"
+msgstr "Motivo exento"
+
+#: inc/functions-checkout.php:660 inc/functions-checkout.php:728
+#, fuzzy
+msgid "Exemption Certificate"
+msgstr "Certificado de exención"
+
+#: inc/admin-options.php:361
+#, fuzzy
+msgid "Exemption Message"
+msgstr "Mensaje de exención"
+
+#: inc/functions.php:363
+#, fuzzy
+msgid "Exemption Name"
+msgstr "Nombre de la exención"
+
+#: inc/functions.php:367
+#, fuzzy
+msgid "Exemption Reason"
+msgstr "Motivo de la exención"
+
+#: inc/admin-options.php:87
+#, fuzzy
+msgid "Exemption Settings"
+msgstr "Configuración de exención"
+
+#: inc/functions-account.php:131
+#, fuzzy
+msgid "Exemption Status"
+msgstr "Estado de exención"
+
+#: inc/admin-options.php:601
+#, fuzzy
+msgid "Exemption Status & Approvals"
+msgstr "Estado de exención y aprobaciones"
+
+#: inc/admin-options.php:1039
+#, fuzzy
+msgid "Exemption status management."
+msgstr "Gestión del estado de exención."
+
+#: inc/admin-options.php:337 inc/admin-options.php:340 inc/functions.php:358
+#: premium-files/functions-avatax.php:23
+#, fuzzy
+msgid "Exemption Type"
+msgstr "Tipo de exención"
+
+#: inc/functions-users.php:55
+#, fuzzy
+msgid "Expiration"
+msgstr "Expiración"
+
+#: inc/admin-options.php:328 inc/admin-options.php:933
+#: inc/functions-account.php:227 inc/functions-checkout.php:231
+#: inc/functions.php:75 premium-files/registration.php:55
+#, fuzzy
+msgid "Expiration Date"
+msgstr "Fecha de caducidad"
+
+#: inc/admin-options.php:325
+#, fuzzy
+msgid "Expiration Date Field"
+msgstr "Campo Fecha de caducidad"
+
+#: inc/admin-options.php:1037
+#, fuzzy
+msgid "Expiration date field."
+msgstr "Campo de fecha de caducidad."
+
+#: inc/admin-options.php:980 inc/functions-account.php:153
+#: inc/functions-users.php:169 inc/functions.php:46
+#, fuzzy
+msgid "Expired"
+msgstr "Caducado"
+
+#: inc/admin-options.php:393
+#, fuzzy
+msgid "Field Label"
+msgstr "Etiqueta de campo"
+
+#: inc/admin-options.php:394
+#, fuzzy
+msgid "Field Type"
+msgstr "Tipo de campo"
+
+#: inc/admin-options.php:572
+#, fuzzy
+msgid "Fields on Registration Form"
+msgstr "Campos en el formulario de registro"
+
+#: inc/functions-account.php:452 inc/functions-account.php:458
+#, fuzzy
+msgid "File deleted successfully."
+msgstr "El archivo se ha eliminado correctamente."
+
+#: inc/functions-account.php:455
+#, fuzzy
+msgid "File not found for user."
+msgstr "Archivo no encontrado para el usuario."
+
+#: premium-files/upload-checkout.php:77
+#, fuzzy
+msgid ""
+"File size exceeds the maximum limit (500KB). Please upload a smaller file."
+msgstr ""
+"El tamaño del archivo supera el límite máximo (500 KB). Por favor, cargue un "
+"archivo más pequeño."
+
+#: inc/admin-options.php:30
+#, fuzzy
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: inc/admin-options.php:1078
+#, fuzzy
+msgid "Get Support"
+msgstr "Obtener soporte"
+
+#: inc/admin-options.php:585
+#, fuzzy
+msgid "Hide Fields On Checkout"
+msgstr "Ocultar campos al finalizar la compra"
+
+#: inc/admin-options.php:770
+#, fuzzy
+msgid "Hide tax exemption for selected countries"
+msgstr "Ocultar exención de impuestos para países seleccionados"
+
+#: inc/admin-options.php:1041
+#, fuzzy
+msgid "Hide the tax exemption fields on checkout."
+msgstr "Oculte los campos de exención de impuestos al finalizar la compra."
+
+#. Author URI of the plugin
+#, fuzzy
+msgid "https://www.relywp.com"
+msgstr "https://www.relywp.com"
+
+#: inc/admin-options.php:296 inc/functions-account.php:208
+#: inc/functions-checkout.php:215 premium-files/registration.php:23
+#, fuzzy
+msgid "I want to claim tax exemption"
+msgstr "Quiero reclamar la exención de impuestos"
+
+#: inc/admin-options.php:392
+#, fuzzy
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#: inc/admin-options.php:580
+#, fuzzy
+msgid ""
+"If enabled, a section will be added to the WooCommerce user registration "
+"form for the user to fill out their tax exemption fields."
+msgstr ""
+"Si está habilitado, se agregará una sección al formulario de registro de "
+"usuario de WooCommerce para que el usuario complete sus campos de exención "
+"de impuestos."
+
+#: inc/admin-options.php:230
+#, fuzzy
+msgid ""
+"If enabled, a tab/section will be added to the \"My Account\" page for the "
+"user to edit their tax exemption details."
+msgstr ""
+"Si está habilitado, se agregará una pestaña/sección a la página \"Mi "
+"cuenta\" para que el usuario edite sus detalles de exención de impuestos."
+
+#: inc/admin-options.php:630
+#, fuzzy
+msgid ""
+"If enabled, customers need to be approved manually to enable exemption. "
+"After submitting the form on the \"My Account\" page, an email is sent to "
+"admin for approval, and their status set to \"Pending\"."
+msgstr ""
+"Si se habilita, los clientes deben aprobarse manualmente para habilitar la "
+"exención. Después de enviar el formulario en la página \"Mi cuenta\", se "
+"envía un correo electrónico al administrador para su aprobación y su estado "
+"se establece en \"Pendiente\"."
+
+#: inc/admin-options.php:506
+#, fuzzy
+msgid ""
+"If enabled, it will add a \"Tax Exemption Certificate\" upload section/field "
+"to the tax exemption form."
+msgstr ""
+"Si está habilitado, agregará una sección/campo de carga de \"Certificado de "
+"exención de impuestos\" al formulario de exención de impuestos."
+
+#: inc/admin-options.php:494
+#, fuzzy
+msgid ""
+"If enabled, it will add an \"Expiration Date\" field to the tax exemption "
+"form."
+msgstr ""
+"Si está habilitado, agregará un campo de \"Fecha de vencimiento\" al "
+"formulario de exención de impuestos."
+
+#: inc/admin-options.php:684
+#, fuzzy
+msgid "If enabled, tax exemption will only be available to logged in users."
+msgstr ""
+"Si está habilitada, la exención de impuestos solo estará disponible para los "
+"usuarios registrados."
+
+#: inc/admin-options.php:697
+#, fuzzy
+msgid ""
+"If enabled, tax exemption will only be available to selected user roles."
+msgstr ""
+"Si se habilita, la exención de impuestos solo estará disponible para los "
+"roles de usuario seleccionados."
+
+#: inc/admin-options.php:617
+#, fuzzy
+msgid ""
+"If enabled, the user will be able to view their exemption status on the \"my "
+"account\" page."
+msgstr ""
+"Si está habilitado, el usuario podrá ver su estado de exención en la página "
+"\"mi cuenta\"."
+
+#: inc/admin-options.php:593
+#, fuzzy
+msgid ""
+"If enabled, they will only see the the \"I want to claim tax exemption\" "
+"checkbox on checkout. The tax exemption fields will be hidden and they will "
+"first need to edit their details on the \"My Account\" page."
+msgstr ""
+"Si está habilitada, solo verán la casilla de verificación \"Quiero reclamar "
+"la exención de impuestos\" al finalizar la compra. Los campos de exención de "
+"impuestos estarán ocultos y primero deberán editar sus datos en la página "
+"\"Mi cuenta\"."
+
+#: inc/admin-options.php:481
+#, fuzzy
+msgid ""
+"If enabled, you can add your own custom fields to the tax exemption form."
+msgstr ""
+"Si está habilitado, puede agregar sus propios campos personalizados al "
+"formulario de exención de impuestos."
+
+#: inc/admin-options.php:760
+#, fuzzy
+msgid ""
+"If enabled, you can limit tax exemption fields to only be available to "
+"certain countries (billing address on checkout)."
+msgstr ""
+"Si está habilitado, puede limitar los campos de exención de impuestos para "
+"que solo estén disponibles en ciertos países (dirección de facturación al "
+"finalizar la compra)."
+
+#: inc/admin-options.php:663
+#, fuzzy
+msgid ""
+"If enabled, you can set a custom \"Tax Class for Tax Exemption\" for "
+"specific customers. This will override the global tax class set in the "
+"general settings."
+msgstr ""
+"Si está habilitado, puede establecer una \"Clase de impuesto para la "
+"exención de impuestos\" personalizada para clientes específicos. Esto "
+"anulará la clase de impuesto global establecida en la configuración general."
+
+#: inc/admin-options.php:737
+#, fuzzy
+msgid ""
+"If enabled, you will need to edit each product individually and enable \"Tax "
+"Exempt Product\" to disable VAT for that product."
+msgstr ""
+"Si está habilitado, deberá editar cada producto individualmente y habilitar "
+"\"Producto exento de impuestos\" para deshabilitar el IVA para ese producto."
+
+#: inc/admin-options.php:834
+#, fuzzy
+msgid ""
+"If the AvaTax integration is enabled it will modify the plugin to work "
+"slightly differently in some areas, and will do the following:"
+msgstr ""
+"Si la integración de AvaTax está habilitada, modificará el complemento para "
+"que funcione de manera ligeramente diferente en algunas áreas, y hará lo "
+"siguiente:"
+
+#: inc/admin-options.php:495
+#, fuzzy
+msgid ""
+"If their exemption expires, it will be disabled on their account and if "
+"\"approved users only\" is enabled, they will require re-approval."
+msgstr ""
+"Si su exención expira, se deshabilitará en su cuenta y si se habilita \"solo "
+"usuarios aprobados\", deberán volver a aprobarla."
+
+#: inc/functions.php:18
+#, fuzzy
+msgid "Information"
+msgstr "Información"
+
+#: inc/admin-options.php:1047
+#, fuzzy
+msgid "Integration with \"AvaTax\"."
+msgstr "Integración con \"AvaTax\"."
+
+#: premium-files/upload-checkout.php:67 premium-files/upload-checkout.php:72
+#, fuzzy
+msgid "Invalid file type. Please upload a PDF file."
+msgstr "Tipo de archivo no válido. Cargue un archivo PDF."
+
+#: inc/functions-users.php:47
+#, fuzzy
+msgid "Is tax exemption currently enabled for this customer?"
+msgstr ""
+"¿Está habilitada actualmente la exención de impuestos para este cliente?"
+
+#: inc/admin-options.php:408
+#, fuzzy
+msgid "Label"
+msgstr "Etiqueta"
+
+#: inc/admin-options.php:1049
+#, fuzzy
+msgid "Learn more about PRO"
+msgstr "Más información sobre PRO"
+
+#: inc/admin-options.php:208
+#, fuzzy
+msgid "Location on Checkout"
+msgstr "Ubicación al finalizar la compra"
+
+#: inc/admin-options.php:676
+#, fuzzy
+msgid "Logged in users only"
+msgstr "Solo usuarios registrados"
+
+#: inc/admin-options.php:1082
+#, fuzzy
+msgid "Manage Account & Subscription"
+msgstr "Administrar cuenta y suscripción"
+
+#: inc/admin-options.php:923
+#, fuzzy
+msgid "Name"
+msgstr "Nombre"
+
+#: inc/admin-options.php:307
+#, fuzzy
+msgid "Name Field"
+msgstr "Campo de nombre"
+
+#: inc/admin-options.php:310 inc/functions-account.php:212 inc/functions.php:54
+#, fuzzy
+msgid "Name of person to which Tax Exemption applies"
+msgstr "Nombre de la persona a la que se aplica la exención de impuestos"
+
+#: inc/functions-checkout.php:219 premium-files/registration.php:40
+#, fuzzy
+msgid "Name of person to which Tax exemption applies"
+msgstr "Nombre de la persona a la que se aplica la exención de impuestos"
+
+#: inc/admin-options.php:1072
+#, fuzzy
+msgid "Need help? Have a suggestion?"
+msgstr "¿Necesitas ayuda? ¿Tienes alguna sugerencia?"
+
+#: inc/admin-options.php:245
+#, fuzzy
+msgid "New Order Email"
+msgstr "Correo electrónico de nuevo pedido"
+
+#: inc/functions.php:395
+#, fuzzy
+msgid "No"
+msgstr "No"
+
+#: premium-files/functions-avatax.php:30
+#, fuzzy
+msgid "No exemption"
+msgstr "Sin exención"
+
+#: inc/functions.php:129
+#, fuzzy
+msgid "No file uploaded."
+msgstr "No se ha subido ningún archivo."
+
+#: inc/functions-account.php:158
+#, fuzzy
+msgid "None"
+msgstr "Ninguno"
+
+#: inc/admin-options.php:424
+#, fuzzy
+msgid "Number"
+msgstr "Número"
+
+#: inc/admin-options.php:1040
+#, fuzzy
+msgid "Only allow exemption for approved users."
+msgstr "Solo se permite la exención para usuarios aprobados."
+
+#: inc/admin-options.php:1043
+#, fuzzy
+msgid "Only allow exemption for logged in users."
+msgstr "Solo se permite la exención para los usuarios registrados."
+
+#: inc/admin-options.php:1045
+#, fuzzy
+msgid "Only allow exemption for selected countries."
+msgstr "Solo se permite la exención para países seleccionados."
+
+#: inc/admin-options.php:1044
+#, fuzzy
+msgid "Only allow exemption for selected user roles."
+msgstr "Solo se permite la exención para los roles de usuario seleccionados."
+
+#: premium-files/upload.php:99
+#, fuzzy
+msgid "Only PDF files are allowed."
+msgstr "Solo se permiten archivos PDF."
+
+#: inc/admin-options.php:1042
+#, fuzzy
+msgid "Only remove tax from specific products."
+msgstr "Solo elimine los impuestos de productos específicos."
+
+#: inc/admin-options.php:395 inc/admin-options.php:433
+#, fuzzy
+msgid "Options"
+msgstr "Opciones"
+
+#: inc/admin-options.php:254
+#, fuzzy
+msgid "Orders List Column"
+msgstr "Columna Lista de pedidos"
+
+#: inc/admin-options.php:724
+#, fuzzy
+msgid "Other Limitations"
+msgstr "Otras limitaciones"
+
+#: inc/admin-options.php:975 inc/functions-users.php:165
+#: inc/functions-users.php:186 inc/functions.php:43
+#, fuzzy
+msgid "Pending"
+msgstr "Pendiente"
+
+#: inc/functions-account.php:163
+#, fuzzy
+msgid "Pending Approval"
+msgstr "Pendiente de aprobación"
+
+#: inc/functions-checkout.php:477 premium-files/registration.php:136
+#, fuzzy, php-format
+msgid "Please enter %s."
+msgstr "Por favor, introduzca %s."
+
+#: premium-files/registration.php:118
+#, fuzzy
+msgid "Please enter a name for Tax exemption."
+msgstr "Introduzca un nombre para la exención de impuestos."
+
+#: premium-files/registration.php:121
+#, fuzzy
+msgid "Please enter a reason for Tax exemption."
+msgstr "Introduzca el motivo de la exención de impuestos."
+
+#: inc/functions-checkout.php:463
+#, fuzzy
+msgid "Please enter expiration date for Tax exemption."
+msgstr "Ingrese la fecha de vencimiento para la exención de impuestos."
+
+#: inc/functions-checkout.php:448
+#, fuzzy
+msgid "Please enter name for Tax exemption."
+msgstr "Ingrese el nombre de la exención de impuestos."
+
+#: inc/functions-checkout.php:454
+#, fuzzy
+msgid "Please enter reason for Tax exemption."
+msgstr "Ingrese el motivo de la exención de impuestos."
+
+#: premium-files/upload-checkout.php:140
+#, fuzzy, php-format
+msgid ""
+"Please upload your Exemption Certificate on the <a href=\"%s\">My Account</a>"
+" page."
+msgstr ""
+"Cargue su Certificado de Exención en la página <a href=\"%s\">Mi Cuenta</a> ."
+
+#: premium-files/upload-checkout.php:59 premium-files/upload.php:91
+#, fuzzy
+msgid "Please wait a moment before uploading another file."
+msgstr "Espere un momento antes de cargar otro archivo."
+
+#: inc/admin-options.php:422
+#, fuzzy
+msgid "Radio"
+msgstr "Radio"
+
+#: inc/admin-options.php:927
+#, fuzzy
+msgid "Reason"
+msgstr "Razón"
+
+#: inc/admin-options.php:314
+#, fuzzy
+msgid "Reason Field"
+msgstr "Campo de motivo"
+
+#: inc/admin-options.php:317 inc/functions-account.php:218 inc/functions.php:62
+#, fuzzy
+msgid "Reason for Tax Exemption"
+msgstr "Motivo de la exención de impuestos"
+
+#: inc/functions-checkout.php:225 premium-files/registration.php:47
+#, fuzzy
+msgid "Reason for Tax exemption"
+msgstr "Motivo de la exención de impuestos"
+
+#: inc/admin-options.php:113
+#, fuzzy
+msgid "Remove Tax on Shipping"
+msgstr "Eliminar el impuesto sobre el envío"
+
+#: inc/admin-options.php:622
+#, fuzzy
+msgid "Require Manual Approval"
+msgstr "Requerir aprobación manual"
+
+#: inc/admin-options.php:439
+#, fuzzy
+msgid "Required"
+msgstr "Obligatorio"
+
+#: inc/admin-options.php:149 inc/admin-options.php:186
+#, fuzzy
+msgid "Required?"
+msgstr "¿Obligatorio?"
+
+#: inc/admin-options.php:1059
+#, fuzzy
+msgid "Risk free! 7 day trial & 14 day money-back guarantee."
+msgstr ""
+"¡Sin riesgos! Prueba de 7 días y garantía de devolución de dinero de 14 días."
+
+#: inc/admin-options.php:418 premium-files/registration.php:95
+#, fuzzy
+msgid "Select"
+msgstr "Escoger"
+
+#: inc/admin-options.php:775
+#, fuzzy
+msgid "Select the countries here"
+msgstr "Seleccione los países aquí"
+
+#: inc/admin-options.php:108
+#, fuzzy
+msgid "Select the tax class that will be applied to the tax exempt orders."
+msgstr ""
+"Seleccione la clase de impuesto que se aplicará a las órdenes exentas de "
+"impuestos."
+
+#: inc/admin-options.php:218
+#, fuzzy
+msgid ""
+"Select where the tax exemption checkbox/form is shown on the checkout page."
+msgstr ""
+"Seleccione dónde se muestra la casilla de verificación / formulario de "
+"exención de impuestos en la página de pago."
+
+#: inc/admin-options.php:752
+#, fuzzy
+msgid "Selected countries only"
+msgstr "Solo países seleccionados"
+
+#: inc/admin-options.php:689
+#, fuzzy
+msgid "Selected user roles only"
+msgstr "Solo roles de usuario seleccionados"
+
+#: inc/admin-options.php:910
+#, fuzzy
+msgid ""
+"Set or update an existing customer as tax exempt by filling out the form "
+"below."
+msgstr ""
+"Establezca o actualice un cliente existente como exento de impuestos "
+"completando el formulario a continuación."
+
+#: inc/admin-options.php:222
+#, fuzzy
+msgid "Settings on My Account Page"
+msgstr "Configuración en la página Mi cuenta"
+
+#: inc/admin-options.php:135
+#, fuzzy
+msgid "Show \"Name\" Field"
+msgstr "Mostrar campo \"Nombre\""
+
+#: inc/admin-options.php:172
+#, fuzzy
+msgid "Show \"Reason\" Field"
+msgstr "Mostrar campo \"Motivo\""
+
+#: inc/admin-options.php:609
+#, fuzzy
+msgid "Show Exemption Status"
+msgstr "Mostrar estado de exención"
+
+#: inc/admin-options.php:1038
+#, fuzzy
+msgid "Show fields on registration form."
+msgstr "Mostrar campos en el formulario de registro."
+
+#: inc/admin-options.php:771
+#, fuzzy
+msgid "Show tax exemption for selected countries only"
+msgstr "Mostrar exención de impuestos solo para países seleccionados"
+
+#: inc/admin-options.php:641
+#, fuzzy
+msgid ""
+"Show tax exemption message on checkout with link to account page for non-"
+"approved users."
+msgstr ""
+"Mostrar mensaje de exención de impuestos al finalizar la compra con enlace a "
+"la página de la cuenta para usuarios no aprobados."
+
+#: inc/admin-options.php:729
+#, fuzzy
+msgid "Specific products only"
+msgstr "Solo productos específicos"
+
+#: inc/admin-options.php:101
+#, fuzzy
+msgid "Standard"
+msgstr "Estándar"
+
+#: inc/admin-options.php:969 inc/functions-users.php:75
+#, fuzzy
+msgid "Status"
+msgstr "Estado"
+
+#: inc/admin-options.php:1070
+#, fuzzy
+msgid "Support"
+msgstr "Apoyo"
+
+#: inc/admin-options.php:941 inc/functions-users.php:61 inc/functions.php:87
+#, fuzzy
+msgid "Tax Class"
+msgstr "Clase impositiva"
+
+#: inc/admin-options.php:95
+#, fuzzy
+msgid "Tax Class for Tax Exemption"
+msgstr "Clase impositiva para la exención de impuestos"
+
+#: inc/admin-options.php:655
+#, fuzzy
+msgid "Tax Class Per Customer"
+msgstr "Clase impositiva por cliente"
+
+#: inc/admin-options.php:649
+#, fuzzy
+msgid "Tax Class: Advanced Settings"
+msgstr "Clase impositiva: Configuración avanzada"
+
+#: inc/functions.php:25 inc/functions.php:28 inc/functions.php:351
+#: inc/functions.php:354 inc/functions.php:442 inc/functions.php:444
+#: inc/functions.php:447
+#, fuzzy
+msgid "Tax Exempt"
+msgstr "Exento de impuestos"
+
+#: premium-files/per-product.php:16
+#, fuzzy
+msgid "Tax Exempt Product"
+msgstr "Producto exento de impuestos"
+
+#: inc/admin-options.php:282 inc/functions-account.php:57
+#: inc/functions-account.php:84 inc/functions-account.php:112
+#: inc/functions.php:18
+#, fuzzy
+msgid "Tax Exemption"
+msgstr "Exención de impuestos"
+
+#: inc/admin-options.php:349 inc/admin-options.php:352
+#: inc/functions-account.php:241 inc/functions.php:110
+#: premium-files/registration.php:66 premium-files/upload-checkout.php:14
+#, fuzzy
+msgid "Tax Exemption Certificate"
+msgstr "Certificado de Exención de Impuestos"
+
+#: inc/admin-options.php:286
+#, fuzzy
+msgid "Tax Exemption Description"
+msgstr "Descripción de la exención de impuestos"
+
+#: inc/functions-checkout.php:627 inc/functions-checkout.php:711
+#, fuzzy
+msgid "Tax Exemption Details"
+msgstr "Detalles de la exención de impuestos"
+
+#. Name of the plugin
+#, fuzzy
+msgid "Tax Exemption for WooCommerce (PRO)"
+msgstr "Exención de impuestos para WooCommerce (PRO)"
+
+#: inc/admin-options.php:125
+#, fuzzy
+msgid "Tax Exemption Form"
+msgstr "Formulario de exención de impuestos"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Tax Exemption plugin for WooCommerce. Allow customers to declare tax "
+"exemption eligibility, and provide tax exemption details."
+msgstr ""
+"Plugin de exención de impuestos para WooCommerce. Permita que los clientes "
+"declaren la elegibilidad para la exención de impuestos y proporcionen "
+"detalles de exención de impuestos."
+
+#: inc/functions-account.php:393
+#, fuzzy
+msgid "Tax Exemption Request"
+msgstr "Solicitud de exención de impuestos"
+
+#: inc/functions.php:38
+#, fuzzy
+msgid "Tax Exemption Status"
+msgstr "Estado de exención de impuestos"
+
+#: inc/admin-options.php:279
+#, fuzzy
+msgid "Tax Exemption Title"
+msgstr "Título de Exención de Impuestos"
+
+#: inc/admin-options.php:414
+#, fuzzy
+msgid "Text"
+msgstr "Mensaje de texto"
+
+#: inc/admin-options.php:416
+#, fuzzy
+msgid "Textarea"
+msgstr "Área de texto"
+
+#: premium-files/upload.php:95
+#, fuzzy
+msgid "The file size exceeds the limit of 500KB."
+msgstr "El tamaño del archivo supera el límite de 500 KB."
+
+#: inc/admin-options.php:90
+#, fuzzy
+msgid ""
+"The following settings allow you to customise how tax exemption is applied "
+"to orders."
+msgstr ""
+"Los siguientes ajustes te permiten personalizar la forma en que se aplica la "
+"exención de impuestos a los pedidos."
+
+#: inc/admin-options.php:128
+#, fuzzy
+msgid ""
+"The following settings allow you to customise where customers can customise "
+"their tax exemption details and status."
+msgstr ""
+"La siguiente configuración le permite personalizar dónde los clientes pueden "
+"personalizar los detalles y el estado de su exención de impuestos."
+
+#: inc/admin-options.php:240
+#, fuzzy
+msgid ""
+"The following settings allow you to customise where tax exemption details "
+"will be displayed to admins for orders."
+msgstr ""
+"La siguiente configuración te permite personalizar dónde se mostrarán los "
+"detalles de la exención de impuestos a los administradores de los pedidos."
+
+#: inc/functions-account.php:396
+#, fuzzy, php-format
+msgid "The user %s has requested tax exemption.<br><br>"
+msgstr "El usuario %s ha solicitado la exención de impuestos. <br><br>"
+
+#: inc/admin-options.php:25
+#, fuzzy
+msgid "This plugin requires WooCommerce to be installed and activated."
+msgstr "Este plugin requiere que WooCommerce esté instalado y activado."
+
+#: inc/admin-options.php:369
+#, fuzzy
+msgid ""
+"This text will be shown in cases where they need to be directed to the "
+"account page to verify or update their exemption details."
+msgstr ""
+"Este texto se mostrará en los casos en los que deban ser dirigidos a la "
+"página de la cuenta para verificar o actualizar los detalles de su exención."
+
+#: inc/admin-options.php:885
+#, fuzzy
+msgid "Try it free for 7 days."
+msgstr "Pruébalo gratis durante 7 días."
+
+#: inc/admin-options.php:1056
+#, fuzzy
+msgid "Try PRO free for 7 days"
+msgstr "Pruebe PRO gratis durante 7 días"
+
+#: inc/functions-users.php:79
+#, fuzzy
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/functions-account.php:277
+#, fuzzy
+msgid "Update"
+msgstr "Actualizar"
+
+#: inc/admin-options.php:456
+#, fuzzy
+msgid "Upgrade to PRO to access these features and settings."
+msgstr "Actualice a PRO para acceder a estas funciones y configuraciones."
+
+#: inc/admin-options.php:671
+#, fuzzy
+msgid "User Limitations"
+msgstr "Limitaciones del usuario"
+
+#: inc/admin-options.php:919 inc/functions-users.php:48
+#, fuzzy
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: inc/functions-checkout.php:662 inc/functions-checkout.php:728
+#, fuzzy
+msgid "View"
+msgstr "Vista"
+
+#: inc/functions-users.php:152
+#, fuzzy
+msgid "View Certificate"
+msgstr "Ver certificado"
+
+#: inc/admin-options.php:1071
+#, fuzzy
+msgid "View Plugin Documentation"
+msgstr "Ver la documentación del plugin"
+
+#: inc/admin-options.php:567
+#, fuzzy
+msgid "Visibility Options"
+msgstr "Opciones de visibilidad"
+
+#: inc/admin-options.php:1033
+#, fuzzy
+msgid "Want more features? Upgrade to PRO!"
+msgstr "¿Quieres más funciones? ¡Actualízate a PRO!"
+
+#: inc/admin-options.php:364 inc/functions-checkout.php:285
+#: inc/functions-checkout.php:420
+#, fuzzy
+msgid "Want to claim tax exemption?"
+msgstr "¿Quieres reclamar la exención de impuestos?"
+
+#: inc/admin-options.php:142
+#, fuzzy
+msgid "When enabled, a \"Name\" field will be shown on the tax exemption form."
+msgstr ""
+"Cuando esté habilitado, se mostrará un campo \"Nombre\" en el formulario de "
+"exención de impuestos."
+
+#: inc/admin-options.php:179
+#, fuzzy
+msgid ""
+"When enabled, a \"Reason\" field will be shown on the tax exemption form."
+msgstr ""
+"Cuando esté habilitado, se mostrará un campo \"Motivo\" en el formulario de "
+"exención de impuestos."
+
+#: inc/admin-options.php:259
+#, fuzzy
+msgid ""
+"When enabled, a column will be added to the admin orders list page to "
+"indicate if the order is tax exempt."
+msgstr ""
+"Cuando se habilita, se agregará una columna a la página de lista de pedidos "
+"del administrador para indicar si el pedido está exento de impuestos."
+
+#: inc/admin-options.php:269
+#, fuzzy
+msgid ""
+"When enabled, a meta box will be added to the admin \"Edit Order\" page "
+"toview the customers tax exemption details."
+msgstr ""
+"Cuando esté habilitado, se agregará un cuadro meta a la página de "
+"administración \"Editar pedido\" para ver los detalles de la exención de "
+"impuestos de los clientes."
+
+#: inc/admin-options.php:118
+#, fuzzy
+msgid "When enabled, tax will also be removed from the shipping costs."
+msgstr ""
+"Cuando esté habilitado, los impuestos también se eliminarán de los costos de "
+"envío."
+
+#: inc/admin-options.php:250
+#, fuzzy
+msgid ""
+"When enabled, the customers tax exemption information will be included in "
+"the admin \"New Order\" emails."
+msgstr ""
+"Cuando se habilita, la información de exención de impuestos de los clientes "
+"se incluirá en los correos electrónicos de \"Nuevo pedido\" del "
+"administrador."
+
+#: inc/functions.php:395
+#, fuzzy
+msgid "Yes"
+msgstr "Sí"
+
+#: inc/admin-options.php:603
+#, fuzzy
+msgid ""
+"You can manage and edit the status of customers tax exemption in the "
+"\"Exempt Customers\" tab."
+msgstr ""
+"Puede administrar y editar el estado de la exención de impuestos de los "
+"clientes en la pestaña \"Clientes exentos\"."
+
+#: inc/functions-checkout.php:261 inc/functions-checkout.php:465
+#, fuzzy
+msgid "Your tax exemption has expired."
+msgstr "Su exención de impuestos ha expirado."
